@@ -1,7 +1,7 @@
 import React from 'react';
 import {View,Text} from 'react-native';
 import Styles from './styles';
-import {Form,Input} from '../../../../index'
+import {Form,Input} from '../../../../index-v2';
 /**
  * Returns the JSX Markup for the view
  * @returns {XML}

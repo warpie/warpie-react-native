@@ -1,3 +1,3 @@
 import React from 'react';
-import {Setup} from './js/example/routing';
+import {Setup} from './v2/example/routing';
 export default Setup;
