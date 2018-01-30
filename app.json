@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "caesar-react-native",
+    "name": "warpie-react-native",
     "description": "This project is really great.",
-    "slug": "caesar-react-native",
+    "slug": "warpie-react-native",
     "privacy": "public",
     "sdkVersion": "25.0.0",
     "platforms": ["ios", "android"],

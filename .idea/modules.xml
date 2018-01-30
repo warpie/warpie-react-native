@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/caesar-react-native.iml" filepath="$PROJECT_DIR$/.idea/caesar-react-native.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/warpie-react-native.iml" filepath="$PROJECT_DIR$/.idea/warpie-react-native.iml" />
     </modules>
   </component>
 </project>

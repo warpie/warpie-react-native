@@ -1,6 +1,6 @@
 import React from 'react';
 import {View,Text} from 'react-native';
-import {Drawer,Icon} from 'antd-mobile'
+
 /**
  * Returns the JSX Markup for the view
  * @returns {XML}
