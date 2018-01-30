@@ -1,6 +1,8 @@
 {
-  "main": "node_modules/expo/AppEntry.js",
-  "private": true,
+  "name" : "warpie-react-native",
+  "version": "1.0.0-beta.1",
+  "main": "index.js",
+  "private": false,
   "dependencies": {
     "expo": "^25.0.0",
     "react": "16.2.0",
