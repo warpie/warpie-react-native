@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles';
 import {View} from 'react-native';
-import Button from '../../button';
+import {Button} from 'antd-mobile'
 /**
  * Returns the JSX Markup for the view
  * @returns {XML}
@@ -27,19 +27,21 @@ var view = function () {
                  */
                 submitBtn = (
                     <Button
-                        text="Submit"
                         {...customProps}
-                        onPress={this.onSubmit.bind(this)}
-                    />
+                        onClick={this.onSubmit.bind(this)}
+                    >
+                        Submit
+                    </Button>
                 )
             }
         }
     } else {
         submitBtn = (
             <Button
-                text="Submit"
-                onPress={this.onSubmit.bind(this)}
-            />
+                onClick={this.onSubmit.bind(this)}
+            >
+                Submit
+            </Button>
         )
     }
     const childrenWithProps = this.getModifiedChildren();

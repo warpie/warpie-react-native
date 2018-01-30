@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import ComponentView  from './view';
 import {ActionSheet} from 'antd-mobile';
+import PropTypes from 'prop-types';
 /**
  * @description Image Picker
  * @type Component

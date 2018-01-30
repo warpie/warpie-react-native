@@ -9,5 +9,8 @@
     "validate.js": "^0.11.1",
     "react-navigation": "^1.0.0-beta.21",
     "antd-mobile": "^2.1.5"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.6.3"
   }
 }

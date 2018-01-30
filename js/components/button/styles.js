@@ -1,5 +1,5 @@
 import React from 'react-native';
-import {Colors} from '@caesar-styles';
+
 
 var styles = React.StyleSheet.create({
     container: {
@@ -7,7 +7,7 @@ var styles = React.StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         alignSelf: 'stretch',
-        backgroundColor: Colors.brandYellow,
+        backgroundColor: '#777',
         borderRadius: 5
     },
     text: {

@@ -1,9 +1,9 @@
 import React from 'react-native';
-
+/**
+ * Styles for the view
+ */
 var styles = React.StyleSheet.create({
-    container : {
-        padding: 15
-    }
+
 });
 
 export default styles;
