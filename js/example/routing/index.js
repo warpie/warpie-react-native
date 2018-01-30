@@ -3,5 +3,8 @@
  * regardless of which routing architecture or plugin is used
  */
 export {
-	default as Routes,INITIAL_ROUTE,INITIAL_UNSECURED_ROUTE,INITIAL_SECURED_ROUTE
+	default as Routes,INITIAL_ROUTE
 } from './routes';
+export {
+	default as Setup
+} from './setup';

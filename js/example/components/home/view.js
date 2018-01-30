@@ -1,21 +1,18 @@
 import React from 'react';
-import {INITIAL_ROUTE} from '../../routing';
-import {
-    StackNavigator,
-} from 'react-navigation';
-import {Routes} from '../../routing';
-
-const Navigator = StackNavigator(Routes,{
-    initialRouteName : INITIAL_ROUTE,
-    headerMode : 'none'
-});
+import {View,Text} from 'react-native';
+import {Drawer,Icon} from 'antd-mobile'
 /**
  * Returns the JSX Markup for the view
  * @returns {XML}
  */
 var view = function () {
+    const {navigation} = this.props;
     return (
-        <Navigator/>
+       <View>
+           <Text>
+               Text
+           </Text>
+       </View>
     );
 }
 module.exports = view;

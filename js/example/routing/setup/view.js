@@ -1,9 +1,9 @@
 import React from 'react';
-import {INITIAL_ROUTE} from '../../routing';
+import {INITIAL_ROUTE} from '../routes';
 import {
     StackNavigator,
 } from 'react-navigation';
-import {Routes} from '../../routing';
+import Routes from '../routes';
 
 const Navigator = StackNavigator(Routes,{
     initialRouteName : INITIAL_ROUTE,

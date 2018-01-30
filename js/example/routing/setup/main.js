@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import { BackAndroid } from 'react-native';
-import { connect } from 'react-redux';
-import { Routes} from '../../routing';
 import ComponentView from './view'
 
 /**
@@ -9,7 +6,7 @@ import ComponentView from './view'
  * @type Component
  * @author Inderdeep
  */
-class Main extends Component {
+export default  class Main extends Component {
 
     /**
      * Container
